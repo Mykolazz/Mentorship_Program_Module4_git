@@ -18,4 +18,9 @@ public class Arithmetic {
     public double sqrt (int a){
         return Math.sqrt(a);
     }
+
+    public int addAdvanced(int a, int b){
+        System.out.println("This is add method");
+        return a+b;
+    }
 }
